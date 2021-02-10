@@ -1,6 +1,26 @@
 # IceCream PHP
 
 A PHP port of Python's [IceCream](https://github.com/gruns/icecream).
+This repository is a fork of [ntzm/icecream](https://github.com/ntzm/icecream-php), with PHP 8 support enabled.
+
+## Installation
+in composer.json, add:
+```json
+...
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/PiercingMania/icecream-php"
+    }
+  ],
+...
+"require": {
+...
+"ntzm/icecream": "dev-php8",
+...
+}, 
+...
+```
 
 ## Usage
 
